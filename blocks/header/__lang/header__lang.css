@@ -1,0 +1,43 @@
+  @import url('./_underline/header__lang_underline.css');
+  .header__lang {
+      font-style: normal;
+      font-weight: normal;
+      text-align: right;
+      color: #ffffff;
+      cursor: pointer;
+  }
+  
+  .header__lang:hover {
+      opacity: 0.5;
+      transition: 0.1s;
+  }
+  
+  @media screen and (min-width: 768px) {
+      .header__lang {
+          max-width: 30px;
+          min-height: 24px;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 23px;
+          text-align: right;
+          color: #ffffff;
+          cursor: pointer;
+          margin: 0 0 0 18px;
+      }
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+      .header__lang {
+          max-width: 30px;
+          min-height: 18px;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 96%;
+          text-align: right;
+          color: #ffffff;
+          cursor: pointer;
+          margin: 0 0 0 16px;
+      }
+  }

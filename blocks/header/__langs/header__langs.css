@@ -1,0 +1,10 @@
+ .header__langs {
+     display: flex;
+     align-content: flex-end;
+ }
+ 
+ @media screen and (min-width: 320px) {
+     .header__langs {
+         padding: 10px 2px 0 0;
+     }
+ }

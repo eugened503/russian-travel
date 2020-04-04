@@ -1,0 +1,25 @@
+.video__item:nth-child(1) {
+    background-image: url(../../../images/colors-of-kamchatka.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.video__item:nth-child(2) {
+    background-image: url(../../../images/observatory.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.video__item {
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.video__item:nth-child(2):hover {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../images/observatory.jpg);
+}
+
+.video__item:nth-child(1):hover {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../images/colors-of-kamchatka.jpg);
+}

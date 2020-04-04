@@ -1,0 +1,15 @@
+.cover__image {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-image: url(../../../images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .5;
+}
+
+.cover__image:hover {
+    opacity: .3;
+    transition: .3s;
+}

@@ -1,0 +1,23 @@
+.menu__item {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 18px;
+}
+
+.menu__item:hover {
+    opacity: 0.5;
+    transition: 0.1s;
+}
+
+@media screen and (max-width: 375px) {
+    .menu__item {
+        font-style: normal;
+        font-weight: normal;
+    }
+    .menu__item {
+        margin-bottom: 18px;
+    }
+    .menu__item:nth-child(5) {
+        margin-bottom: 0;
+    }
+}

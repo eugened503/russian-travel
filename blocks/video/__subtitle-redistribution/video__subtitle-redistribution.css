@@ -1,0 +1,26 @@
+  .video__subtitle-redistribution {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 15px;
+      color: #FFFFFF;
+      z-index: 2;
+  }
+  
+  @media screen and (min-width: 769px) {
+      .video__subtitle-redistribution {
+          margin: 18px auto 30px 30px;
+      }
+  }
+  
+  @media screen and (min-width:321px) and (max-width: 768px) {
+      .video__subtitle-redistribution {
+          margin: 8px auto auto 24px;
+      }
+  }
+  
+  @media screen and (max-width: 320px) {
+      .video__subtitle-redistribution {
+          margin: 8px auto auto 16px;
+      }
+  }

@@ -1,0 +1,19 @@
+.comment__quote {
+    text-align: left;
+    align-self: center;
+    margin: 42px 19px 24px 0;
+    max-width: 382px;
+    height: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .comment__quote {
+        text-align: left;
+        margin: auto;
+        order: 2;
+    }
+}

@@ -1,0 +1,91 @@
+.cover-subtitle {
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    z-index: 1;
+}
+
+@media screen and (min-width: 1440px) {
+    .cover-subtitle {
+        font-size: 18px;
+        line-height: 26px;
+        margin: 477px auto auto auto;
+        width: 35%;
+    }
+    .cover-subtitle span {
+        display: none;
+    }
+    .cover-subtitle::before {
+        content: 'По мотивам учебной темы о Транссибе и iframes — путешествие  ';
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .cover-subtitle {
+        font-size: 18px;
+        line-height: 26px;
+        margin: 477px auto auto auto;
+        width: 35%;
+    }
+    .cover-subtitle span {
+        display: none;
+    }
+    .cover-subtitle::before {
+        content: 'По мотивам учебной темы о Транссибе и iframes — путешествие  ';
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover-subtitle {
+        font-size: 18px;
+        line-height: 26px;
+        margin: 448px auto auto auto;
+        width: 37%;
+    }
+    .cover-subtitle span {
+        display: none;
+    }
+    .cover-subtitle::before {
+        content: 'По мотивам учебной темы о Транссибе и iframes — путешествие  ';
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover-subtitle {
+        font-size: 18px;
+        line-height: 26px;
+        margin: 380px auto auto auto;
+        width: 47%;
+    }
+    .cover-subtitle span {
+        display: none;
+    }
+    .cover-subtitle::before {
+        content: 'По мотивам учебной темы о Транссибе и iframes — путешествие  ';
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .cover-subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        margin: 191px auto auto auto;
+        width: 75%;
+    }
+    .cover-subtitle span {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .cover-subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        margin: 143px auto auto auto;
+        width: 90%;
+    }
+    .cover-subtitle span {
+        display: block;
+    }
+}
